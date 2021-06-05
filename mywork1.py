@@ -633,9 +633,7 @@ if agree:
 
 
 
-st.markdown(
-    """<a href="https://www.google.com/">example.com</a>""", unsafe_allow_html=True,
-)
+
 st.markdown('''
     <a href="https://www.google.com">
         <img src="https://media.tenor.com/images/ac3316998c5a2958f0ee8dfe577d5281/tenor.gif" />
