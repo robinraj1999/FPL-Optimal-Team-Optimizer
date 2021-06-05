@@ -21,7 +21,12 @@ def get_data(filename):
 	df = pd.read_csv(filename)
 	return df
 
-
+st.markdown('''
+    <a href="https://www.google.com">
+        <img src="https://media.tenor.com/images/f6378d5c837d255a894418a2f38d3a01/tenor.gif" />
+    </a>''',
+    unsafe_allow_html=True
+)
 
 with header:
     from PIL import Image
