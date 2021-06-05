@@ -30,7 +30,7 @@ with header:
     # width is used to set the width of an image
     st.markdown('''
     <a href="https://www.google.com">
-        <img src="https://media.tenor.com/images/f6378d5c837d255a894418a2f38d3a01/tenor.gif" width="400" />
+        <img src="https://media.tenor.com/images/f6378d5c837d255a894418a2f38d3a01/tenor.gif" width="200" />
     </a>''',
     unsafe_allow_html=True
 )
