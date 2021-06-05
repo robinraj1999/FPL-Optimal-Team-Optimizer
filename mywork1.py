@@ -8,7 +8,10 @@ import fastprogress
 import sys
 sys.path.append("..")
 
+col1, col2, col3 = st.beta_columns([1,6,1])
 
+with col1:
+st.write("")
 header=st.beta_container()
 dataset=st.beta_container()
 features=st.beta_container()
@@ -138,6 +141,7 @@ decisions, captain_decisions, sub_decisions = select_team(expected_scores.values
                                                           positions.values, clubs.values,
                                                           sub_factor=0.2)
 # print results
+with col2:
 p=0
 if st.button('CLICK TO GENERATE AN OPTIMIZED TEAM'):
     st.markdown("**PLAYING XI:**")
@@ -642,5 +646,6 @@ st.markdown('''
 )
    
 
-
+with col3:
+st.write("")
 
