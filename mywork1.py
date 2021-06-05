@@ -33,7 +33,6 @@ with header:
         <img src="https://media.tenor.com/images/f6378d5c837d255a894418a2f38d3a01/tenor.gif" width="600" />
     </a>''',
     unsafe_allow_html=True
-    st.title('Final Year Project')
 )
     
     st.title('Final Year Project')
